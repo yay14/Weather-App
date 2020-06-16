@@ -39,15 +39,10 @@ class App extends React.Component{
             location:res.data.location.name,
             country:res.data.location.country,
             region:res.data.location.region,
-            time:res.data.location.localtime,
             wind_speed: res.data.current.wind_speed,
-            wind_dir:res.data.current.wind_dir,
             pressure:res.data.current.pressure,
             precip:res.data.current.precip,
             humidity:res.data.current.humidity,
-            feelslike:res.data.current.feelslike,
-            cloudcover:res.data.current.cloudcover,
-            visibility:res.data.current.visibility,
             description:res.data.current.weather_descriptions[0],
             img:res.data.current.weather_icons              
           }
