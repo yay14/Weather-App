@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function WeatherApp(props) {
-    const { temperature,location, country,region, time, wind_speed,wind_dir,pressure, precip, humidity,feelslike,cloudcover,visibility,description, img } = props.weatherdata;
+    const { temperature,location, country,region,  wind_speed,pressure, precip, humidity,description, img } = props.weatherdata;
 
     return (
         <div className="user-weather">
